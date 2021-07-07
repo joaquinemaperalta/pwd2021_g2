@@ -20,6 +20,8 @@ echo '
 	  <ul class="nav nav-pills nav-stacked">';
 
 foreach($cats as $cat){
+    if($cat['categoria'] == "Ayuda") continue;
+
 echo '<li><a href="#"><span onclick="cargar(\'#capa_C\',\'mostrar_cartelera.php?b='.$cat['categoria'].'\')">'.$cat['categoria'].'</span></a></li>'  ; $cat['categoria'];
 }	  
 	   

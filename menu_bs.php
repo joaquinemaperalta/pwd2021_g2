@@ -47,6 +47,7 @@ pre {
     left: 0;
     width: 100%;
     height: 100%;
+    z-index: -1;
     background-image: url('images/b_bkg_3.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -75,7 +76,7 @@ pre {
 		}
 		?>
 	  
-	  
+        <li><a href="ayuda.php">Ayuda</a></li>
 	  </ul>
 	  <ul class="nav navbar-nav navbar-right" style="padding-right: 10px;">
       

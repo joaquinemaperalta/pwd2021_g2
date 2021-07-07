@@ -1,8 +1,8 @@
 <?php 
 $host = "localhost"; 
 $user = "root";
-$pass = "lp4458"; 
-$db_name = "biblio_t1"; 
+$pass = ""; 
+$db_name = "bib-g4"; 
 
 $con = new mysqli($host,$user,$pass,$db_name);
 

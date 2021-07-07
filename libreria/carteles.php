@@ -54,7 +54,7 @@ class Cartel{
 	
 	}	
 	
-function traer_datos($nro=0) // declara el constructor, si trae el numero de persona lo busca 
+static function traer_datos($nro=0) // declara el constructor, si trae el numero de persona lo busca 
 	{
 		if ($nro!=0)
 		{
