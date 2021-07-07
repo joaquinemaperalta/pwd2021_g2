@@ -47,10 +47,13 @@ pre {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('images/b_bkg_3.jpg');
+    background-image: url('images/fondo_integrantes.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100%;
+    background-size: 60%;
+    background-color: pink;
+
+    
     opacity: 0.6;
     filter:alpha(opacity=80);
 }
